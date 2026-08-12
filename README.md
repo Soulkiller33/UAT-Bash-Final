@@ -1,5 +1,5 @@
 # UAT-Bash-Final
-### ONLY SCAN TARGETS YOU ARE PERMITTED TO SCAN ###
+# ONLY SCAN TARGETS YOU ARE PERMITTED TO SCAN #
 # Automated Network Security Scanner
 
 ## Overview
