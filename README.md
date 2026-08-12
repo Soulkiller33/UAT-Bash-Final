@@ -1,4 +1,5 @@
 # UAT-Bash-Final
+### ONLY SCAN TARGETS YOU ARE PERMITTED TO SCAN ###
 # Automated Network Security Scanner
 
 ## Overview
@@ -19,4 +20,4 @@ Run with root privileges and specify a target IP or hostname:
 
 ### Default Port Scan (All standard ports)
 ```bash
-sudo ./scanner.sh <target_ip_or_hostname>
+sudo ./scanner.sh <target_ip_or_hostname>```
