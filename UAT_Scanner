@@ -160,9 +160,12 @@ fi
 
 # 9. Generate Final Structured Report
 mkdir -p reports
-FINAL_REPORT="reports/report.txt"
+
+# Define the timestamp first so the variables below can read it
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
-ARCHIVE_REPORT="reports/report_${TARGET_IP}_${TIMESTAMP}.txt"
+
+# Make your main report uniquely named
+FINAL_REPORT="reports/report_${TARGET_IP}_${TIMESTAMP}.txt"
 
 echo "==================================================" > "$FINAL_REPORT"
 echo "       AUTOMATED NETWORK SECURITY REPORT          " >> "$FINAL_REPORT"
@@ -201,4 +204,3 @@ rm -f "$RAW_LOG"
 echo -e "\n[*] Scan completed successfully!"
 echo "[+] Professional report generated: $FINAL_REPORT"
 echo "[+] Archived a copy as: $ARCHIVE_REPORT"
-```[cite: 1]
